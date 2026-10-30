@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Production bundles and coverage
+build/
+dist/
+coverage/
+
+# Environment files (commit an explicit example file when needed)
+.env
+.env.*
+!.env.example
+
+# Deployment providers
+.vercel/
+
+# Test and local verification output
+artifacts/
+test-results/
+playwright-report/
+blob-report/
+
+# TypeScript and framework caches
+*.tsbuildinfo
+.turbo/
+.cache/
+
+# Logs and package-manager diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# v0 runtime files (preview-only)
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+
+# Project-local scratch/configuration files
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

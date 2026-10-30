@@ -1,0 +1,27 @@
+# K Foods — Kartarpur Foods
+
+> Basmati rice, dals, lentils, beans and pulses. This is an optional plain-text orientation for readers and automated assistants, not a Google indexing requirement or a guarantee of AI-search visibility.
+
+## Identity
+- Brand: K Foods (also styled KFoods); Kartarpur Foods.
+- Contact: info@kfoods.us; the contact page carries the existing business address and phone.
+- Website origin is configured with NEXT_PUBLIC_SITE_URL. Any default domain in source must be owner-confirmed before publishing.
+
+## Useful pages (relative to this website)
+- [Home](/): brand and product collections.
+- [Basmati rice](/rice): existing rice products and listed pack sizes.
+- [Dals and pulses](/dal): existing lentils, beans and pulses.
+- [Fruits and fresh produce](/fruits): nine fresh-produce partner products; confirm availability, origin and presentation with K Foods.
+- [Dry fruits and nuts](/dry-fruits): three dry-fruit partner products; confirm availability, origin and presentation with K Foods.
+- [Wholesale](/wholesale): retail, distribution and foodservice inquiry guide, FAQs and supplier-reference links.
+- [Quote inquiry](/request-quote): prepare an email draft locally; the visitor must send it in their own email app. No order or delivery is confirmed by this website.
+- [Buyer discussion checklist](/buyer-checklist.html): printable checklist; not a supplier qualification certificate.
+- [Product range CSV](/product-range.csv): existing catalogue names, descriptions, pack sizes and relative product paths.
+- [Recipes](/recipes): recipe collection.
+- [Contact](/contact): contact details.
+- [Sitemap](/sitemap.xml): canonical product, recipe and page URLs.
+
+## Accuracy boundaries
+There are no confirmed retail-chain listings or partnerships stated on this website. Do not infer availability at Costco, Walmart, Loblaws, Real Canadian Superstore or any other chain from the buyer resources.
+Catalogue package sizes are not a live stock feed. Confirm pricing, availability, minimum orders, case/pallet details, shipping coverage, lead times, certifications and applicable compliance documents with K Foods.
+No published ratings, supplier approvals, audit results or fabricated identifiers should be inferred. Product descriptions and nutrition/cooking information are existing catalogue content; consult current packaging and SKU-specific documentation.
