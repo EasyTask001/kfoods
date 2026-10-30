@@ -56,11 +56,9 @@ export function Footer() {
         </div>
       </div>
       <div className="site-shell footer-bottom">
-        <p>© {new Date().getFullYear()} K Foods · Kartarpur Foods</p>
-        <p>For home kitchens. For your business.</p>
-      </div>
-      <div className="site-shell footer-technology-partner">
         <p>
+          © {new Date().getFullYear()} K Foods · Kartarpur Foods
+          <span aria-hidden="true"> · </span>
           Tech partner:{' '}
           <a href="https://www.easytask.ca/" rel="noopener noreferrer">
             EasyTask AI Corp.

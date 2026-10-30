@@ -64,9 +64,6 @@ export default function Home() {
         <section className="home-hero">
           <div className="site-shell hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow">
-                <span /> KARTARPUR FOODS
-              </p>
               <h1>
                 Good food.
                 <br />
@@ -92,10 +89,6 @@ export default function Home() {
                   <ArrowUpRight size={17} aria-hidden="true" />
                 </Link>
               </div>
-              <div className="hero-footnote">
-                <span>TRADITION IN EVERY GRAIN</span>
-                <span>RICE · DALS · PULSES</span>
-              </div>
             </div>
             <div className="hero-visual">
               <Image
@@ -113,18 +106,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <div className="category-ribbon">
-          <div className="site-shell">
-            <span>BASMATI RICE</span>
-            <span aria-hidden="true">✦</span>
-            <span>LENTILS &amp; PULSES</span>
-            <span aria-hidden="true">✦</span>
-            <span>RETAIL &amp; BULK PACK FORMATS</span>
-            <span aria-hidden="true">✦</span>
-            <span>AUTHENTIC EVERYDAY FLAVOUR</span>
-          </div>
-        </div>
 
         <section id="products" className="section-space site-shell">
           <div className="section-heading">
@@ -398,7 +379,6 @@ export default function Home() {
         <section className="faq-section section-space">
           <div className="site-shell faq-grid">
             <div>
-              <p className="eyebrow">A LITTLE MORE TO KNOW</p>
               <h2>
                 Your questions,
                 <br />
