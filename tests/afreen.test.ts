@@ -73,11 +73,14 @@ test('partner routes expose distinct metadata and the required technology partne
   assert.match(homeMarkup, /FRUITS &amp; DRY FRUIT PARTNER/)
   assert.match(homeMarkup, /TECH PARTNER/)
   assert.doesNotMatch(homeMarkup, /PARTNER RANGE \/ FRESH PRODUCE/)
-  assert.match(homeMarkup, /Tech partner:/)
+  assert.match(homeMarkup, /footer-partner/)
+  assert.match(homeMarkup, /easytask-logo\.png/)
+  assert.match(homeMarkup, /website technology partner/)
   assert.match(homeMarkup, /EasyTask AI Corp\./)
   const footer = readFileSync(file('components/footer.tsx'), 'utf8')
-  assert.match(footer, /Tech partner:/)
+  assert.match(footer, /TECH PARTNER/)
   assert.match(footer, /EasyTask AI Corp\./)
+  assert.match(footer, /easytask-logo\.png/)
 })
 
 test('partner quote links use the partner ID and are rendered as safe HTML', async () => {

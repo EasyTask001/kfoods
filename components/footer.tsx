@@ -56,14 +56,25 @@ export function Footer() {
         </div>
       </div>
       <div className="site-shell footer-bottom">
-        <p>
-          © {new Date().getFullYear()} K Foods · Kartarpur Foods
-          <span aria-hidden="true"> · </span>
-          Tech partner:{' '}
-          <a href="https://www.easytask.ca/" rel="noopener noreferrer">
-            EasyTask AI Corp.
-          </a>
-        </p>
+        <p>© {new Date().getFullYear()} K Foods · Kartarpur Foods</p>
+      </div>
+      <div className="site-shell footer-partner">
+        <a
+          className="footer-partner-logo"
+          href="https://www.easytask.ca/"
+          rel="noopener noreferrer"
+          aria-label="EasyTask AI Corp. — website technology partner"
+        >
+          <Image
+            src="/easytask-logo.png"
+            alt="EasyTask AI Corp. logo"
+            width={346}
+            height={77}
+            className="footer-partner-image"
+          />
+        </a>
+        <p className="footer-partner-label">TECH PARTNER</p>
+        <p className="footer-partner-name">EasyTask AI Corp.</p>
       </div>
     </footer>
   )

@@ -733,6 +733,40 @@ button {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.footer-partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  padding-block: 4px 30px;
+  text-align: center;
+}
+.footer-partner-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  background: #fbfaf5;
+  border-radius: 3px;
+}
+.footer-partner-image {
+  display: block;
+  width: 138px;
+  height: auto;
+}
+.footer-partner-label {
+  margin: 3px 0 0;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  color: #e9cf8a;
+}
+.footer-partner-name {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: #bac8b5;
+}
 .partner-section {
   background: #f1efe5;
 }
