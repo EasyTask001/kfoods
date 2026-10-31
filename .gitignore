@@ -28,6 +28,13 @@ blob-report/
 *.tsbuildinfo
 .turbo/
 .cache/
+.eslintcache
+.prettiercache
+
+# Installed browser binaries and tool caches
+playwright/.cache/
+.pnpm-store/
+.yarn/
 
 # Logs and package-manager diagnostics
 *.log
@@ -39,10 +46,12 @@ pnpm-debug.log*
 # Editor and operating-system files
 .DS_Store
 Thumbs.db
+.directory
 .idea/
 .vscode/
 *.swp
 *.swo
+*.bak
 
 # Local certificates and private keys
 *.pem
@@ -54,6 +63,9 @@ Thumbs.db
 __v0_runtime_loader.js
 __v0_devtools.tsx
 __v0_jsx-dev-runtime.ts
+
+# Packed artifacts and scratch archives
+*.tgz
 
 # Project-local scratch/configuration files
 branch_structure.json
